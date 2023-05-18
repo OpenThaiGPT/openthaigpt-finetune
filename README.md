@@ -4,7 +4,7 @@
 OpenThaiGPT Version 0.1.0-beta is a 7B-parameter LLaMA model finetuned to follow Thai translated instructions below and makes use of the Huggingface LLaMA implementation. 
 
 ## Support
-- Offical wbsite: https://openthaigpt.aieat.or.th
+- Official website: https://openthaigpt.aieat.or.th
 - Facebook page: https://web.facebook.com/groups/openthaigpt
 - A Discord server for discussion and support [here](https://discord.gg/rUTp6dfVUF)
 - E-mail: kobkrit@aieat.or.th
