@@ -37,7 +37,7 @@ OpenThaiGPT Volunteers, Artificial Intelligence Entrepreneur Association of Thai
 <img src="https://1173516064-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FvvbWvIIe82Iv1yHaDBC5%2Fuploads%2F6yWPXxdoW76a4UBsM8lw%2Fimage.png?alt=media&token=1006ee8e-5327-4bc0-b9a9-a02e93b0c032" width="100px"></td><td><img src="https://1173516064-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FvvbWvIIe82Iv1yHaDBC5%2Fuploads%2FBwsmSovEIhW9AEOlHTFU%2Fimage.png?alt=media&token=5b550289-e9e2-44b3-bb8f-d3057d74f247" width="100px"></td></tr><table>
 
 ### Authors
-Kobkrit Viriyayudhakorn (kobkrit@aieat.or.th), Sumeth Yuenyong (sumeth.yue@mahidol.edu) and Thaweewat Ruksujarit (thaweewr@scg.com).
+Kobkrit Viriyayudhakorn (kobkrit@iapp.co.th), Sumeth Yuenyong (sumeth.yue@mahidol.edu) and Thaweewat Ruksujarit (thaweewr@scg.com).
 
 <i>Disclaimer: Provided responses are not guaranteed.</i>
 
