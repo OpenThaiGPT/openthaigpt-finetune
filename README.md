@@ -7,7 +7,7 @@ OpenThaiGPT Version 0.1.0-beta is a 7B-parameter LLaMA model finetuned to follow
 - Official website: https://openthaigpt.aieat.or.th
 - Facebook page: https://web.facebook.com/groups/openthaigpt
 - A Discord server for discussion and support [here](https://discord.gg/rUTp6dfVUF)
-- E-mail: kobkrit@aieat.or.th
+- E-mail: kobkrit@iapp.co.th
 
 ## License
 - **Source Code**: Apache Software License 2.0.<br>
