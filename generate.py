@@ -27,7 +27,7 @@ def main(
     load_8bit: bool = False,
     base_model: str = "",
     lora_weights: str = "",
-    prompt_template: str = "",  # The prompt template to use, will default to alpaca.
+    prompt_template: str = "llama_v2",  # The prompt template to use, will default to alpaca.
     server_name: str = "0.0.0.0",  # Allows to listen on all interfaces by providing '0.
     share_gradio: bool = False,
 ):
@@ -168,7 +168,7 @@ def main(
             gr.components.Textbox(
                 lines=2,
                 label="Instruction",
-                placeholder="Tell me about alpacas.",
+                placeholder="Tell me about llama.",
             ),
             gr.components.Textbox(lines=2, label="Input", placeholder="none"),
             gr.components.Slider(
@@ -194,8 +194,8 @@ def main(
                 label="Output",
             )
         ],
-        title="🇹🇭 OpenThaiGPT 0.1.0-beta",
-        description="🇹🇭 OpenThaiGPT 0.1.0-beta is a 7B-parameter LLaMA model finetuned to follow Thai instructions. It is trained on various dataset and makes use of the Huggingface LLaMA implementation. For more information, please visit [the project's website](https://openthaigpt.aieat.or.th).",  # noqa: E501
+        title="🇹🇭 OpenThaiGPT 1.0.0-beta",
+        description="🇹🇭 OpenThaiGPT 1.0.0-beta is a 7B-parameter LLaMA model finetuned to follow Thai instructions. It is trained on various dataset and makes use of the Huggingface LLaMA implementation. For more information, please visit [the project's website](https://openthaigpt.aieat.or.th).",  # noqa: E501
     ).queue().launch(server_name="0.0.0.0", share=share_gradio)
     # Old testing code follows.
 

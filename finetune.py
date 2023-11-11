@@ -29,7 +29,7 @@ def train(
     # model/data params
     base_model: str = "",  # the only required argument
     data_path: str = "Thaweewat/alpaca-cleaned-52k-th",
-    output_dir: str = "./openthaigpt-010-beta",
+    output_dir: str = "./openthaigpt-100-beta",
     # training hyperparams
     batch_size: int = 128,
     micro_batch_size: int = 4,
@@ -55,11 +55,11 @@ def train(
     wandb_watch: str = "",  # options: false | gradients | all
     wandb_log_model: str = "",  # options: false | true
     resume_from_checkpoint: str = None,  # either training checkpoint or final adapter
-    prompt_template_name: str = "alpaca",  # The prompt template to use, will default to alpaca.
+    prompt_template_name: str = "llama_v2",  # The prompt template to use, will default to alpaca.
 ):
     if int(os.environ.get("LOCAL_RANK", 0)) == 0:
         print(
-            f"Training Alpaca-LoRA model with params:\n"
+            f"Training Llama v2 model with params:\n"
             f"base_model: {base_model}\n"
             f"data_path: {data_path}\n"
             f"output_dir: {output_dir}\n"
